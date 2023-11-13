@@ -1,0 +1,1688 @@
+{
+	"arbitrum-mainnet": {
+		"address": "0x47784c4F856C0401232d32235c227927C7594547",
+		"name": "LayerSyncOFT",
+		"sendVersion": 2,
+		"receiveVersion": 2,
+		"remoteConfigs": [
+			{
+				"remoteChain": "avalanche-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "base-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "bsc-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "celo-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "nova-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "linea-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "mantle-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 2,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "metis-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "fuse-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "moonbeam-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "moonriver-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "optimism-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "polygon-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "fantom-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			}
+		]
+	},
+	"avalanche-mainnet": {
+		"address": "0x5e1B19EAE2d2CED6E3D1FA7cA9a5EE8b8Ac01507",
+		"name": "LayerSyncOFT",
+		"sendVersion": 2,
+		"receiveVersion": 2,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "base-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "bsc-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "celo-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "nova-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "linea-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "mantle-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 2,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "metis-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "fuse-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "moonbeam-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "moonriver-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "optimism-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "polygon-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "fantom-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			}
+		]
+	},
+	"base-mainnet": {
+		"address": "0x4A62b1145F732918500F8F10Ab854e04Fe59584a",
+		"name": "LayerSyncOFT",
+		"sendVersion": 1,
+		"receiveVersion": 1,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "avalanche-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "bsc-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "nova-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "linea-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "mantle-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 2,
+				"relayer": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xAaB5A48CFC03Efa9cC34A2C1aAcCCB84b4b770e4"
+			},
+			{
+				"remoteChain": "metis-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xAaB5A48CFC03Efa9cC34A2C1aAcCCB84b4b770e4"
+			},
+			{
+				"remoteChain": "moonbeam-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "moonriver-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xAaB5A48CFC03Efa9cC34A2C1aAcCCB84b4b770e4"
+			},
+			{
+				"remoteChain": "optimism-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "polygon-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "fantom-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			}
+		]
+	},
+	"bsc-mainnet": {
+		"address": "0xFbF9734E2432d748C4b8596Db4a694B65f4F3acf",
+		"name": "LayerSyncOFT",
+		"sendVersion": 2,
+		"receiveVersion": 2,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "avalanche-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "base-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "celo-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "nova-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "linea-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "mantle-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 2,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "metis-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "fuse-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "moonbeam-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "moonriver-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "optimism-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "polygon-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "fantom-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			}
+		]
+	},
+	"celo-mainnet": {
+		"address": "0x210A96C6E2b11ef251317C23221d415687E24425",
+		"name": "LayerSyncOFT",
+		"sendVersion": 1,
+		"receiveVersion": 1,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x15e51701F245F6D5bd0FEE87bCAf55B0841451B3",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "avalanche-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0x15e51701F245F6D5bd0FEE87bCAf55B0841451B3",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "bsc-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x15e51701F245F6D5bd0FEE87bCAf55B0841451B3",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "linea-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x15e51701F245F6D5bd0FEE87bCAf55B0841451B3",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "fuse-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x15e51701F245F6D5bd0FEE87bCAf55B0841451B3",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0x071c3F1bc3046c693c3ABBC03a87ca9A30e43bE2"
+			},
+			{
+				"remoteChain": "moonbeam-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x15e51701F245F6D5bd0FEE87bCAf55B0841451B3",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "optimism-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x15e51701F245F6D5bd0FEE87bCAf55B0841451B3",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "polygon-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0x15e51701F245F6D5bd0FEE87bCAf55B0841451B3",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "fantom-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x15e51701F245F6D5bd0FEE87bCAf55B0841451B3",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			}
+		]
+	},
+	"nova-mainnet": {
+		"address": "0xB0F40775Ae3414F15f43CFF2fDab83a7cd36e61f",
+		"name": "LayerSyncOFT",
+		"sendVersion": 1,
+		"receiveVersion": 1,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "avalanche-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "base-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "bsc-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "metis-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0x37aaaf95887624a363effB7762D489E3C05c2a02"
+			},
+			{
+				"remoteChain": "moonbeam-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "optimism-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "polygon-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "fantom-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			}
+		]
+	},
+	"linea-mainnet": {
+		"address": "0x4ad3BD48db6928a8A3365f6D776E9Ed7227508A2",
+		"name": "LayerSyncOFT",
+		"sendVersion": 1,
+		"receiveVersion": 1,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "avalanche-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "base-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "bsc-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "celo-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "mantle-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 2,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa"
+			},
+			{
+				"remoteChain": "metis-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa"
+			},
+			{
+				"remoteChain": "moonbeam-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "moonriver-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xcb566e3B6934Fa77258d68ea18E931fa75e1aaAa"
+			},
+			{
+				"remoteChain": "optimism-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "polygon-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "fantom-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xA658742d33ebd2ce2F0bdFf73515Aa797Fd161D9",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			}
+		]
+	},
+	"mantle-mainnet": {
+		"address": "0xB50bd49fC16053172683bf810DDE6C451F83c9Ee",
+		"name": "LayerSyncOFT",
+		"sendVersion": 1,
+		"receiveVersion": 1,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 2,
+				"oracle": "0xaab5a48cfc03efa9cc34a2c1aacccb84b4b770e4"
+			},
+			{
+				"remoteChain": "avalanche-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 2,
+				"oracle": "0xaab5a48cfc03efa9cc34a2c1aacccb84b4b770e4"
+			},
+			{
+				"remoteChain": "base-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 2,
+				"oracle": "0xaab5a48cfc03efa9cc34a2c1aacccb84b4b770e4"
+			},
+			{
+				"remoteChain": "bsc-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 2,
+				"oracle": "0xaab5a48cfc03efa9cc34a2c1aacccb84b4b770e4"
+			},
+			{
+				"remoteChain": "linea-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 2,
+				"oracle": "0xaab5a48cfc03efa9cc34a2c1aacccb84b4b770e4"
+			},
+			{
+				"remoteChain": "metis-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 2,
+				"oracle": "0xaab5a48cfc03efa9cc34a2c1aacccb84b4b770e4"
+			},
+			{
+				"remoteChain": "moonbeam-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 2,
+				"oracle": "0xaab5a48cfc03efa9cc34a2c1aacccb84b4b770e4"
+			},
+			{
+				"remoteChain": "optimism-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 2,
+				"oracle": "0xaab5a48cfc03efa9cc34a2c1aacccb84b4b770e4"
+			},
+			{
+				"remoteChain": "polygon-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 2,
+				"oracle": "0xaab5a48cfc03efa9cc34a2c1aacccb84b4b770e4"
+			},
+			{
+				"remoteChain": "fantom-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 2,
+				"oracle": "0xaab5a48cfc03efa9cc34a2c1aacccb84b4b770e4"
+			}
+		]
+	},
+	"metis-mainnet": {
+		"address": "0xfA35773CeE83B877195FF13A64Dd660d7B25A5D0",
+		"name": "LayerSyncOFT",
+		"sendVersion": 1,
+		"receiveVersion": 1,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x5b19bd330a84c049b62d5b0fc2ba120217a18c1c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xa6bf2be6c60175601bf88217c75dd4b14abb5fbb"
+			},
+			{
+				"remoteChain": "avalanche-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0x5b19bd330a84c049b62d5b0fc2ba120217a18c1c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xa6bf2be6c60175601bf88217c75dd4b14abb5fbb"
+			},
+			{
+				"remoteChain": "base-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x5b19bd330a84c049b62d5b0fc2ba120217a18c1c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xa6bf2be6c60175601bf88217c75dd4b14abb5fbb"
+			},
+			{
+				"remoteChain": "bsc-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x5b19bd330a84c049b62d5b0fc2ba120217a18c1c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xa6bf2be6c60175601bf88217c75dd4b14abb5fbb"
+			},
+			{
+				"remoteChain": "nova-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x5b19bd330a84c049b62d5b0fc2ba120217a18c1c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xa6bf2be6c60175601bf88217c75dd4b14abb5fbb"
+			},
+			{
+				"remoteChain": "linea-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x5b19bd330a84c049b62d5b0fc2ba120217a18c1c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xa6bf2be6c60175601bf88217c75dd4b14abb5fbb"
+			},
+			{
+				"remoteChain": "mantle-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 2,
+				"relayer": "0x5b19bd330a84c049b62d5b0fc2ba120217a18c1c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xa6bf2be6c60175601bf88217c75dd4b14abb5fbb"
+			},
+			{
+				"remoteChain": "fuse-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x5b19bd330a84c049b62d5b0fc2ba120217a18c1c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xa6bf2be6c60175601bf88217c75dd4b14abb5fbb"
+			},
+			{
+				"remoteChain": "moonriver-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x5b19bd330a84c049b62d5b0fc2ba120217a18c1c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xa6bf2be6c60175601bf88217c75dd4b14abb5fbb"
+			},
+			{
+				"remoteChain": "optimism-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x5b19bd330a84c049b62d5b0fc2ba120217a18c1c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xa6bf2be6c60175601bf88217c75dd4b14abb5fbb"
+			},
+			{
+				"remoteChain": "polygon-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0x5b19bd330a84c049b62d5b0fc2ba120217a18c1c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xa6bf2be6c60175601bf88217c75dd4b14abb5fbb"
+			},
+			{
+				"remoteChain": "fantom-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x5b19bd330a84c049b62d5b0fc2ba120217a18c1c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xa6bf2be6c60175601bf88217c75dd4b14abb5fbb"
+			}
+		]
+	},
+	"fuse-mainnet": {
+		"address": "0x904C3c9CA9D03A2095673BDD109c924E997A8088",
+		"name": "LayerSyncOFT",
+		"sendVersion": 1,
+		"receiveVersion": 1,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x5B19bd330A84c049b62D5B0FC2bA120217a18C1C",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xA6Bf2bE6c60175601BF88217c75dD4b14ABB5FBb"
+			},
+			{
+				"remoteChain": "avalanche-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0x5B19bd330A84c049b62D5B0FC2bA120217a18C1C",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xA6Bf2bE6c60175601BF88217c75dD4b14ABB5FBb"
+			},
+			{
+				"remoteChain": "bsc-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x5B19bd330A84c049b62D5B0FC2bA120217a18C1C",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xA6Bf2bE6c60175601BF88217c75dD4b14ABB5FBb"
+			},
+			{
+				"remoteChain": "celo-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x5B19bd330A84c049b62D5B0FC2bA120217a18C1C",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xA6Bf2bE6c60175601BF88217c75dD4b14ABB5FBb"
+			},
+			{
+				"remoteChain": "metis-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x5B19bd330A84c049b62D5B0FC2bA120217a18C1C",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xA6Bf2bE6c60175601BF88217c75dD4b14ABB5FBb"
+			},
+			{
+				"remoteChain": "optimism-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x5B19bd330A84c049b62D5B0FC2bA120217a18C1C",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xA6Bf2bE6c60175601BF88217c75dD4b14ABB5FBb"
+			},
+			{
+				"remoteChain": "polygon-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0x5B19bd330A84c049b62D5B0FC2bA120217a18C1C",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xA6Bf2bE6c60175601BF88217c75dD4b14ABB5FBb"
+			}
+		]
+	},
+	"moonbeam-mainnet": {
+		"address": "0x2353d63313a9Db3b4fe3Cc2760F70911c43B394f",
+		"name": "LayerSyncOFT",
+		"sendVersion": 2,
+		"receiveVersion": 2,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xccCDD23E11F3f47C37fC0a7C3BE505901912C6Cc",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "avalanche-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0xccCDD23E11F3f47C37fC0a7C3BE505901912C6Cc",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "base-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xccCDD23E11F3f47C37fC0a7C3BE505901912C6Cc",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "bsc-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xccCDD23E11F3f47C37fC0a7C3BE505901912C6Cc",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "celo-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xccCDD23E11F3f47C37fC0a7C3BE505901912C6Cc",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "nova-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xccCDD23E11F3f47C37fC0a7C3BE505901912C6Cc",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "linea-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xccCDD23E11F3f47C37fC0a7C3BE505901912C6Cc",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "mantle-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 2,
+				"relayer": "0xccCDD23E11F3f47C37fC0a7C3BE505901912C6Cc",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xdEeF80c12d49e5DA8e01B05636E2d0C776F6b78D"
+			},
+			{
+				"remoteChain": "optimism-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xccCDD23E11F3f47C37fC0a7C3BE505901912C6Cc",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "polygon-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0xccCDD23E11F3f47C37fC0a7C3BE505901912C6Cc",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "fantom-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xccCDD23E11F3f47C37fC0a7C3BE505901912C6Cc",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			}
+		]
+	},
+	"moonriver-mainnet": {
+		"address": "0x0E44032d584aE145162910052903A4dc68DF2dEd",
+		"name": "LayerSyncOFT",
+		"sendVersion": 1,
+		"receiveVersion": 1,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xe9AE261D3aFf7d3fCCF38Fa2d612DD3897e07B2d",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0x84070061032F3e7ea4E068f447FB7cDfC98d57Fe"
+			},
+			{
+				"remoteChain": "avalanche-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0xe9AE261D3aFf7d3fCCF38Fa2d612DD3897e07B2d",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0x84070061032F3e7ea4E068f447FB7cDfC98d57Fe"
+			},
+			{
+				"remoteChain": "base-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xe9AE261D3aFf7d3fCCF38Fa2d612DD3897e07B2d",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0x84070061032F3e7ea4E068f447FB7cDfC98d57Fe"
+			},
+			{
+				"remoteChain": "bsc-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xe9AE261D3aFf7d3fCCF38Fa2d612DD3897e07B2d",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0x84070061032F3e7ea4E068f447FB7cDfC98d57Fe"
+			},
+			{
+				"remoteChain": "linea-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xe9AE261D3aFf7d3fCCF38Fa2d612DD3897e07B2d",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0x84070061032F3e7ea4E068f447FB7cDfC98d57Fe"
+			},
+			{
+				"remoteChain": "metis-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xe9AE261D3aFf7d3fCCF38Fa2d612DD3897e07B2d",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0x84070061032F3e7ea4E068f447FB7cDfC98d57Fe"
+			},
+			{
+				"remoteChain": "optimism-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xe9AE261D3aFf7d3fCCF38Fa2d612DD3897e07B2d",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0x84070061032F3e7ea4E068f447FB7cDfC98d57Fe"
+			},
+			{
+				"remoteChain": "polygon-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0xe9AE261D3aFf7d3fCCF38Fa2d612DD3897e07B2d",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0x84070061032F3e7ea4E068f447FB7cDfC98d57Fe"
+			},
+			{
+				"remoteChain": "fantom-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xe9AE261D3aFf7d3fCCF38Fa2d612DD3897e07B2d",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0x84070061032F3e7ea4E068f447FB7cDfC98d57Fe"
+			}
+		]
+	},
+	"optimism-mainnet": {
+		"address": "0x8e894966203ac865637b55B396FBCc6b629686Bc",
+		"name": "LayerSyncOFT",
+		"sendVersion": 2,
+		"receiveVersion": 2,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "avalanche-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "base-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "bsc-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "celo-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "nova-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "linea-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "mantle-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 2,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "metis-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "fuse-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "moonbeam-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "moonriver-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "polygon-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "fantom-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			}
+		]
+	},
+	"polygon-mainnet": {
+		"address": "0x29cb32Ce8bec2Db6933d58133Bdb11634bB94461",
+		"name": "LayerSyncOFT",
+		"sendVersion": 2,
+		"receiveVersion": 2,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "avalanche-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "base-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "bsc-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "celo-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "nova-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "linea-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "mantle-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 2,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "metis-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "fuse-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "moonbeam-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "moonriver-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "optimism-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "fantom-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			}
+		]
+	},
+	"fantom-mainnet": {
+		"address": "0xA97fD9DdA2ff80e455B81F8aD8bb9a4E735361eE",
+		"name": "LayerSyncOFT",
+		"sendVersion": 2,
+		"receiveVersion": 2,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x52EEA5c490fB89c7A0084B32FEAB854eefF07c82",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "avalanche-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0x52EEA5c490fB89c7A0084B32FEAB854eefF07c82",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "base-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x52EEA5c490fB89c7A0084B32FEAB854eefF07c82",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "bsc-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x52EEA5c490fB89c7A0084B32FEAB854eefF07c82",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "celo-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x52EEA5c490fB89c7A0084B32FEAB854eefF07c82",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "nova-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x52EEA5c490fB89c7A0084B32FEAB854eefF07c82",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "linea-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x52EEA5c490fB89c7A0084B32FEAB854eefF07c82",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "mantle-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 2,
+				"relayer": "0x52EEA5c490fB89c7A0084B32FEAB854eefF07c82",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "metis-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x52EEA5c490fB89c7A0084B32FEAB854eefF07c82",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "moonbeam-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x52EEA5c490fB89c7A0084B32FEAB854eefF07c82",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "moonriver-mainnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x52EEA5c490fB89c7A0084B32FEAB854eefF07c82",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "optimism-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x52EEA5c490fB89c7A0084B32FEAB854eefF07c82",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			},
+			{
+				"remoteChain": "polygon-mainnet",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0x52EEA5c490fB89c7A0084B32FEAB854eefF07c82",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0xD56e4eAb23cb81f43168F9F45211Eb027b9aC7cc"
+			}
+		]
+	}
+}

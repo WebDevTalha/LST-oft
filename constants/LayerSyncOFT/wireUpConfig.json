@@ -1,0 +1,1133 @@
+{
+  "contractConfig": {
+    "name": "LayerSyncOFT"
+  },
+  "chainConfig": {
+    "arbitrum-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "avalanche-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "base-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "bsc-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "celo-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "nova-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "linea-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "mantle-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "metis-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fuse-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonbeam-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonriver-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "optimism-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "polygon-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fantom-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    },
+    "avalanche-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "base-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "bsc-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "celo-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "nova-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "linea-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "mantle-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "metis-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fuse-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonbeam-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonriver-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "optimism-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "polygon-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fantom-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    },
+    "base-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "avalanche-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "bsc-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "nova-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "linea-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "mantle-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "metis-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonbeam-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonriver-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "optimism-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "polygon-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fantom-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    },
+    "bsc-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "avalanche-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "base-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "celo-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "nova-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "linea-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "mantle-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "metis-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fuse-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonbeam-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonriver-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "optimism-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "polygon-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fantom-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    },
+    "celo-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "avalanche-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "base-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "bsc-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "linea-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fuse-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonbeam-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "optimism-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "polygon-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fantom-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    },
+    "nova-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "avalanche-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "base-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "bsc-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "metis-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonbeam-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "optimism-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "polygon-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fantom-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    },
+    "linea-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "avalanche-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "base-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "bsc-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "celo-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "mantle-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "metis-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonbeam-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonriver-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "optimism-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "polygon-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fantom-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    },
+    "mantle-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "avalanche-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "base-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "bsc-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "linea-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "metis-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonbeam-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "optimism-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "polygon-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fantom-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    },
+    "metis-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "avalanche-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "base-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "bsc-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "nova-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "linea-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "mantle-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fuse-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonriver-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "optimism-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "polygon-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fantom-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    },
+    "fuse-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "avalanche-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "bsc-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "celo-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "metis-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "optimism-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "polygon-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    },
+    "moonbeam-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "avalanche-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "base-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "bsc-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "celo-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "nova-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "linea-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "mantle-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "optimism-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "polygon-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fantom-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    },
+    "moonriver-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "avalanche-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "base-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "bsc-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "linea-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "metis-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "optimism-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "polygon-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fantom-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    },
+    "optimism-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "avalanche-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "base-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "bsc-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "celo-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "nova-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "linea-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "mantle-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "metis-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fuse-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonbeam-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonriver-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "polygon-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fantom-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    },
+    "polygon-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "avalanche-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "base-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "bsc-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "celo-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "nova-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "linea-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "mantle-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "metis-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "fuse-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonbeam-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonriver-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "optimism-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "fantom-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    },
+    "fantom-mainnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "avalanche-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "base-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "bsc-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "celo-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "nova-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "linea-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "mantle-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "metis-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonbeam-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "moonriver-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        },
+        "optimism-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 2000000,
+            "packetType_1": 3200000
+          }
+        },
+        "polygon-mainnet":  {
+          "minDstGasConfig": {
+            "packetType_0": 100000,
+            "packetType_1": 160000
+          }
+        }
+      }
+    }
+  }
+}
+
